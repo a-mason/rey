@@ -1,12 +1,12 @@
 {
   "extends": [
-    "airbnb",
+    "airbnb-base",
     "airbnb-typescript/base"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "react/jsx-no-target-blank": 0
+    "import/extensions": ["off", "never"]
   }
 }
